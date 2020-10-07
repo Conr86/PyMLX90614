@@ -66,10 +66,10 @@ class MLX90614():
         temp = (data * 0.02) - 273.15
         return temp
 
-    def get_ambient(self):
+    def get_amb_temp(self):
         return self.read_temp(self.MLX90614_TA)
 
-    def get_object_1(self):
+    def get_obj_temp(self):
         return self.read_temp(self.MLX90614_TOBJ1)
 
     def get_object_2(self):
