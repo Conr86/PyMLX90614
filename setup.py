@@ -7,7 +7,7 @@ with open('README.md', "r") as f:
 setuptools.setup(
     name="PyMLX90614",
     description="MLX90614 temperature sensor library",
-    version="0.0.3",
+    version="0.0.4",
     author="Connor Kneebone",
     author_email="connor@sfxrescue.com",
     url="https://github.com/Conr86/PyMLX90614",
