@@ -37,6 +37,12 @@ print sensor.get_obj_temp()
 bus.close()
 ```
 
+## Troubleshooting
+
+Older versions of this package used different names for the ambient and object temperature methods. If you get an error like:
+`AttributeError: 'MLX90614' object has no attribute 'get_ambient'.`
+You might need to change any instances of `get_ambient` to `get_amb_temp` and any instances of `get_object` to `get_obj_temp`.
+
 ## License
 
 This project is licensed under the terms of the MIT license.
